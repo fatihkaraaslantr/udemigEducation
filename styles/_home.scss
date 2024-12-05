@@ -1,0 +1,38 @@
+@import "./variables";
+@import "./global";
+
+#home {
+  position: relative;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../assets/group.jpeg);
+  background-size: cover;
+  background-position: bottom center;
+  height: calc(100vh - 20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .home-text {
+    h5 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 6px;
+      color: $main-color;
+    }
+    h1 {
+      font-size: 80px;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 20px;
+      line-height: 1.2;
+    }
+    p {
+      font-size: $p-font;
+      font-weight: 500;
+      color: $gray;
+      margin-bottom: 35px;
+    }
+  }
+}
