@@ -103,7 +103,7 @@ header .header-right #menu-btn {
   position: relative;
   background: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/group.jpeg);
   background-size: cover;
-  background-position: bottom center;
+  background-position: center center;
   height: calc(100vh - 20px);
   display: flex;
   align-items: center;
