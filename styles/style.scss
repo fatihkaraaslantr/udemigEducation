@@ -7,6 +7,10 @@
 @import "./home";
 @import "./global";
 @import "./educations";
+@import "./aboutUs";
+@import "./topEducations";
+@import "./contactUs";
+@import "./footer";
 
 //Css reset
 * {
@@ -27,7 +31,6 @@ body {
 
 section {
   padding: 70px 17% 60px;
-  border: 1px solid gray;
 }
 
 a {
