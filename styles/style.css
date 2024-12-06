@@ -110,9 +110,8 @@ header .header-right #menu-btn {
   justify-content: left;
 }
 #home .home-text {
-  padding: 30px 50px;
+  padding: 20px 40px;
   margin: 0 30px;
-  border: 1px solid gray;
   border-radius: 20px;
 }
 #home .home-text h5 {
